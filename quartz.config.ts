@@ -8,19 +8,23 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Herb's Garden",
+    pageTitle: "🪴",
     enableSPA: true,
     enablePopovers: true,
-    analytics: null,
+    analytics: {
+      provider: 'umani',
+      host: 'cloud.umami.is",
+      websiteId: 'f1e6bc67-94ea-4d16-8609-e8de5f413c3e',
+    },
     locale: "en-US",
     baseUrl: "garden.herbhuang.com",
     ignorePatterns: ["private", "_templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Roboto",
-        code: "Fira Code",
+        header: "Cabin Sketch",
+        body: "Overlock",
+        code: "Cascadia Code",
       },
       colors: {
         lightMode: {
