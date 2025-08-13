@@ -32,14 +32,17 @@ export const defaultContentPageLayout: PageLayout = {
       components: [
         {
           Component: Component.Search(),
-          grow: false,
+          grow: true,
         },
         { Component: Component.Darkmode() },
         { Component: Component.ReaderMode() },
       ],
     }),
     Component.Explorer(),
-    Component.RecentNotes(),
+    Component.RecentNotes({
+      limit: 3,
+      showTags: false,
+    }),
   ],
   right: [
     Component.Graph(),
