@@ -1,0 +1,7 @@
+{
+  "name": "herb-quartz",
+  "compatibility_date": "2025-08-01",
+  "assets": {
+    "directory": "./quartz/public/"
+  }
+}
