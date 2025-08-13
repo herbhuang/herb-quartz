@@ -21,8 +21,10 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "_templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
+      cdnCaching: true,
       typography: {
-        header: "Cabin Sketch",
+        title: "Cabin Sketch"
+        header: "Overlock SC",
         body: "Overlock",
         code: "Cascadia Code",
       },
@@ -33,9 +35,9 @@ const config: QuartzConfig = {
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          secondary: "#438B55",
+          tertiary: "#86be99",
+          highlight: "rgba(10, 204, 102, 0.15)",
         },
         darkMode: {
           light: "#161618",
@@ -43,9 +45,9 @@ const config: QuartzConfig = {
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          secondary: "#7baa85",
+          tertiary: "#93c47d",
+          highlight: "rgba(10, 204, 102, 0.15)",
         },
       },
     },
