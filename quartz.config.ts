@@ -23,7 +23,7 @@ const config: QuartzConfig = {
     theme: {
       cdnCaching: true,
       typography: {
-        title: "Cabin Sketch"
+        title: "Cabin Sketch",
         header: "Overlock SC",
         body: "Overlock",
         code: "Cascadia Code",
